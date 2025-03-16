@@ -47,7 +47,11 @@ public class Array {
     }
 
     public void print() {
-        for (int i = 0; i < items.length; i++) {
+//        for (int i = 0; i < items.length; i++) {
+//            System.out.println(items[i]);
+//        }
+        //<< this is a 'for each' loop
+        for (int i : items) {
             System.out.println(items[i]);
         }
     }
