@@ -37,6 +37,15 @@ public class Array {
         //actual array items holds on to this value unless changed to zerp
     }
 
+    public int indexOf(int index) {
+        for (int i=0; i < count; i++) {
+            if (index == items[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public void print() {
         for (int i = 0; i < items.length; i++) {
             System.out.println(items[i]);
