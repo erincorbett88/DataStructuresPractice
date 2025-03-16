@@ -6,6 +6,5 @@ public class Main {
         newArray.insert(30);
         newArray.print();
         System.out.println(newArray.indexOf(30));
-        System.out.println(newArray.indexOf(23));
     }
 }
