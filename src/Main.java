@@ -6,6 +6,7 @@ public class Main {
         newArray.insert(20);
         newArray.insert(30);
         newArray.insert(40);
+        newArray.removeAt(1);
         newArray.print();
     }
 }
